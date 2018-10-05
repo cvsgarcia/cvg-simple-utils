@@ -1,4 +1,5 @@
 #! /usr/bin/env node
-var shell = require("shelljs");
+console.log("Starting deploy");
 
-shell.exec("utils-commit && utils-push");
+var shell = require("shelljs");
+shell.exec("commit && utils-push");

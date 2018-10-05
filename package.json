@@ -1,12 +1,12 @@
 {
   "name": "cvg-simple-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "bin": {
     "outside": "bin/outside.js",
-    "utils-commit": "bin/utils-commit.js",
     "utils-push": "bin/utils-push.js",
-    "utils-deploy": "bin/utils-deploy.js"
+    "utils-deploy": "bin/utils-deploy.js",
+    "commit": "bin/utils-comit.js"
   },
   "scripts": {},
   "devDependencies": {},
